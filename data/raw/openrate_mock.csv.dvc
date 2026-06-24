@@ -1,0 +1,5 @@
+outs:
+- md5: 4961408508cd866e6823daa2dce8c56e
+  size: 296047
+  hash: md5
+  path: openrate_mock.csv
