@@ -1,0 +1,18 @@
+schema: '2.0'
+stages:
+  make_dataset:
+    cmd: poetry run python src/make_dataset.py
+    deps:
+    - path: params.yaml
+      hash: md5
+      md5: b18c0f0a1420acb4d819c6c89d68c513
+      size: 273
+    - path: src/make_dataset.py
+      hash: md5
+      md5: 25c7ec3c30b4bbefa51845f2e81d0b33
+      size: 2835
+    outs:
+    - path: data/raw/openrate_mock.csv
+      hash: md5
+      md5: 4961408508cd866e6823daa2dce8c56e
+      size: 296047

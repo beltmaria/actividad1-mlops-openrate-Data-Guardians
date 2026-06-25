@@ -1,0 +1,8 @@
+stages:
+  make_dataset:
+    cmd: poetry run python src/make_dataset.py
+    deps:
+    - params.yaml
+    - src/make_dataset.py
+    outs:
+    - data/raw/openrate_mock.csv
