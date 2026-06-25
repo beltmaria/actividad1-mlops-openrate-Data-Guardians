@@ -2,7 +2,7 @@
 
 ## Integrantes
 
-1. Marua Beltran
+1. Maria Beltran
 2. Martha Forero
 
 ## Objetivo
